@@ -18,7 +18,8 @@
     "clean-dist": "rimraf ./dist && mkdir dist",
     "prebuild": "npm-run-all clean-dist test lint",
     "build": "babel-node buildScripts/build.js",
-    "postbuild": "babel-node buildScripts/distServer.js"
+    "postbuild": "babel-node buildScripts/distServer.js",
+    "deploy": "surge ./dist"
   },
   "repository": {
     "type": "git",
@@ -37,6 +38,7 @@
     "json-schema-faker": "^0.5.0-rc23",
     "json-server": "^0.15.1",
     "style-loader": "^1.0.1",
+    "surge": "^0.21.3",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack-cli": "^3.3.10",
     "whatwg-fetch": "^3.0.0"

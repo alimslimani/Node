@@ -16,14 +16,6 @@ app.get('/',function(req,res){
 })
 
 
-app.get('/users',function(req,res){
-    res.json([
-        {"id":1,"firstName":"Bob","lastName":"Smith","email":"bob@gmail.com"},
-        {"id":2,"firstName":"Alice","lastName":"Smith","email":"alice@gmail.com"},
-        {"id":2,"firstName":"Tommy","lastName":"Smith","email":"tommy@gmail.com"},
-    ]);
-});
-
 app.listen(port, function(err){
     if(err){
         console.log(err);

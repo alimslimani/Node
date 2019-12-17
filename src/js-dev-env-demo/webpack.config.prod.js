@@ -15,7 +15,7 @@ export default {
   output: {
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/',
-    filename: '[name].[chunkhash]js'
+    filename: 'bundle.js'
   },
   optimization: {
     splitChunks: {
