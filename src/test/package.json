@@ -24,7 +24,7 @@
     "express": "^4.17.1",
     "jest": "^24.9.0",
     "jsp": "0.0.2",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "sinon": "^7.5.0"
   },
   "devDependencies": {
