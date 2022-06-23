@@ -58,7 +58,7 @@
     "eslint-watch": "^6.0.1",
     "express": "^4.17.1",
     "html-webpack-plugin": "^3.2.0",
-    "jsdom": "^15.2.1",
+    "jsdom": "^16.5.0",
     "localtunnel": "^2.0.0",
     "mocha": "^6.2.2",
     "nock": "^11.7.0",
